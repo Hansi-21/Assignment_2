@@ -1,0 +1,64 @@
+*{padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+div{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 100%;
+}
+
+#one{
+    background-color: purple;
+}
+#two{
+    background-color: darkblue;
+
+}
+#three{
+    background-color: orangered;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    position: relative;
+    margin-top: 50%;
+    transform: translate(0%,-50%);
+    font-size: 40px;
+}
+#ijse{
+    font-size: 25px;
+}
+article{
+    width: 400px;
+    height: 400px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 2;
+    transform: translate(-50%,-50%);
+}
+
+.circle1{
+    position: fixed;
+    height: 74%;
+    width: 74%;
+    border: 12px solid burlywood;
+}
+.circle2{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    border: 12px solid red;
+}
+
